@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TODO App</title>
+  <link rel="stylesheet" type="text/css" href="./todo_appcss.css" />
+</head>
+
+<body>
+  <div class="container center">
+    <h1 class="center title"><strong>TODO APP</strong></h1>
+    <div class="flow-right controls">
+      <span>Item count: <span id="item-count">0</span></span>
+      <span>Unchecked count: <span id="unchecked-count">0</span></span>
+    </div>
+    
+    <button class="buttonadd" onClick="newTodo()">ADD ITEM</button>
+    <button class="buttonremove" onClick="removeTodo()">REMOVE ITEM</button>
+    <button class="buttonclear" onclick="removeall()">REMOVE ALL</button>
+    <ul id="todo-list" class="todo-list"></ul>
+  </div>
+  
+  <script src="./TDjs.js"></script>
+</body>
+
+</html>
